@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+section,header,nav,article{
+    display: block;
+}
+
+body{
+    margin: 1em 10%;
+    max-width: 100em;
+}
+
+header{
+    border-width: 0.1em;
+    border-style: solid;
+    border-bottom-width: 0;
+}
+
+header img.theme_pic{
+    position: relative;
+    left: 23%;
+}
+
+header nav{
+    border-width: 0.1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 10%;
+}
+
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width: 0.1em;
+    border-left-style: solid;
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    display: block;
+    float: left;
+    padding: 0.5em 2em;
+    border-right: 0.1em solid;
+}
+
+article{
+    border-width: 0.1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+
+article img{
+    border-width: 0.1em;
+    border-style: solid;
+    outline-width: 0.1em;
+    outline-style: solid;
+}
+
+#slideshow{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+#preview{
+    position: absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+
+article section{
+    padding-top: 2em;
+}
+
+article ul{
+    padding-top: 1em;
+}
+
+#imagegallery li{
+    display: inline;
+}
+
+article h1{
+    margin-bottom: 2em;
+}
+
+article h2{
+    margin-top: 2em;
+}
+
+#placeholder{
+    position: absolute;
+    top: 88%;
+    left: 55%;
+}
+
+footer address{
+    text-align: center;
+}
+
+td{
+    padding: 0.5em 3em;
+}
+
+label.title{
+    display: block;
+}
+
+fieldset{
+    border: 0;
+}
+label.error{
+    color: red;
+    display: none;
+}

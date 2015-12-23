@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contact</title>
+        <link rel="icon" href="../images/clelogo.jpg">
+        <link rel="stylesheet" media="screen" href="../style/basic.css"/>
+    </head>
+    
+    <body>
+        <header>
+            <img class="theme_pic" src="../images/yellowredyellow.jpg">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/about.html" target="_blank">About</a></li>
+                    <li><a href="../pages/photos.html" target="_blank">Photos</a></li>
+                    <li><a href="../pages/game.html" target="_blank">Games</a></li>
+                    <li><a href="../pages/contact.html" class="here">Contact</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>Contact the team</h1>
+                <form method="post" action="thanks.html">
+                    <fieldset>
+                        <p>
+                            <label for="name" class="title">Name:</label>
+                            <input type="text" name="name" id="name" required="required" placeholder="-Your name-" />
+                            <label for="name" class="error" id="errorname">* Cannot include space or special character, such as ~, !, @, #, $, %, *, etc.</label>
+                        </p>
+                        <p>
+                            <label for="email" class="title">Email:</label>
+                            <input type="email" name="email" id="email" required="required" placeholder="-Your email-" />
+                            <label for="email" class="error" id="erroremail">* Please check your email address.</label>
+                        </p>
+                        <p>
+                            <label for="message" class="title">Message:</label>
+                            <textarea cols="45" rows="7" name="message" id="message" required="required" placeholder="-Write down what you want to tell the team.-" ></textarea>
+                        </p>
+                        <button type="submit">Send</button>
+                        <button type="reset">Reset</button>
+                    </fieldset>
+                </form>
+                
+            </article>
+            
+            
+        </header>
+        
+        
+        <footer>
+            <address>Designed by Kyrie Liu</address>
+        </footer>
+        
+        
+        <script src="../script/global.js"></script>
+    </body>
+</html> 
