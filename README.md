@@ -1,2 +1,2 @@
 # DOM-practice
-To be edited...
+![封面图](https://github.com/KKKyrie/Readme-picture/blob/master/jsDOM.jpg)
